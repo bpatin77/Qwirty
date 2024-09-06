@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  background-color: blue;
+  font-family: sans-serif;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.menuLinks {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.menuLinks > li {
+  list-style: none;
+  color: white;
+  border-right: solid;
+  border-right-width: 1px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-size: 2rem;
+}
+
+.right {
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.middle {
+  background-color: white;
+  font-size: 1rem;
+  color: gray;
+  border-right: solid;
+  border-right-width: 60rem;
+  border-color: white;
+  border-top: solid;
+  border-top-color: white;
+  border-top-width: thick;
+}
+
+.sidebar > li {
+  background-color: blue;
+  color: white;
+  border: 3px solid whitesmoke;
+  list-style: none;
+  font-size: 1.3rem;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.content1 {
+  display: flex;
+  /* justify-content: space-evenly;
+  flex-direction: row; */
+}
+
+.products {
+  background-color: blue;
+  color: white;
+}
+
+.lorem {
+  background-color: whitesmoke;
+  color: black;
+  height: 170;
+  width: 245;
+}
+
+img {
+  width: 245;
+  height: 113;
+}
+
+h3 {
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  padding-right: 96px;
+}
+
+.content3 {
+  display: flex;
+  justify-content: center;
+  padding-right: 96px;
+}
+
+.content4 {
+  display: flex;
+  justify-content: center;
+  padding-right: 96px;
+}
+
+.content5 {
+  display: flex;
+  justify-content: center;
+  padding-right: 96px;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
